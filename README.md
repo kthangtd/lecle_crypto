@@ -27,5 +27,5 @@ final encryptBase64 = cryptoSrv.encrypt('string');
 ### Decrypt
 
 ```dart
-final originStr = cryptoSrv.encrypt('base-64-string');
+final originStr = cryptoSrv.decrypt('base-64-string');
 ```
